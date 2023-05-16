@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/beach.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1659,3 +1659,42 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Progress Bar */
+
+.progress-bar {
+	width: 100%;
+	background-color: #1b1a1a;
+	height: 25px;
+	margin-bottom: 20px;
+  }
+  
+  .progress {
+	height: 100%;
+	background-color: #654ba1;
+	width: 10%;
+	transition: width 0.5s ease-in-out;
+  }
+
+  .button-container {
+	display: flex;
+  }
+
+  button {
+	background-color: #0f0f0f;
+	font-size: 10px;
+	color: #6b6666;
+	border: 1px solid;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #626463;
+  }
+
+  .button:last-child {
+	margin-right: 0;
+  }
