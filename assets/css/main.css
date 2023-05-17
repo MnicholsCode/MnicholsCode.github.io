@@ -1680,7 +1680,17 @@ input, select, textarea {
 	display: flex;
   }
 
-  button {
+  
+  button:hover {
+	background-color: #626463;
+  }
+
+  .button:last-child {
+	margin-right: 0;
+  }
+
+  a.button {
+	border-bottom: none;
 	background-color: #0f0f0f;
 	font-size: 10px;
 	color: #6b6666;
@@ -1689,12 +1699,4 @@ input, select, textarea {
 	margin-bottom: 15px;
 	margin-right: 10px;
 	cursor: pointer;
-  }
-  
-  button:hover {
-	background-color: #626463;
-  }
-
-  .button:last-child {
-	margin-right: 0;
   }
